@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<HTML expr:dir='data:blog.languageDirection'>
+  <head>
+    <title>
+      نموذج التدوين الحر للبلوجر
+    </title>
+    <link href='http://fonts.googleapis.com/earlyaccess/droidarabickufi.css' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css' rel='stylesheet' type='text/css'/>
+    <link href='https://asma-rahmouni.googlecode.com/svn/trunk/GESSTwoMediumRegular.css' rel='stylesheet' type='text/css'/>
+    <link href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css' rel='stylesheet'/>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'/>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'/>
+    <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
+  
+    <style>
+      a.close {
+        float: left !important ;
+        font-size: 11px !important;
+        line-height: 20px !important;
+      }
+      strong {
+        padding: 10px !important;
+      }
+      input#ContactForm1_contact-form-name {
+        width: 100% !important;
+        height: 50px !important;
+        line-height: 45px !important;
+        text-align: right !important;
+      }
+      .mailnot {
+        float: right;
+        padding: 20px;
+        width: 100%;
+      }
+      noti {
+        color: #42A959;
+        font-size: 12px;
+      }
+      body {
+        background: #eee;
+      }
+      a#snapper {
+        color: #fff !important;
+        width: 100%;
+        height: 100%;
+        float: right;
+      }
+      .tillemissage {
+        box-shadow: inset 0px 0px 1px #555;
+        padding: 30px;
+        background: #fff;
+        color: #333;
+        border-right: 5px solid #357ae8;
+      }
+      .form-control {
+        color: #333;
+        font-size: 15px;
+        height: 50px !important;
+        text-align: right !important;
+      }
+      form#form1 {
+        width: 100% !important;
+      }
+      .form {}
+      .contact-form-widget {
+        width: 100% !important;
+        max-width: none !important;
+        min-width: none !important;
+      }
+      .main-outer {
+        /* display: none !important; */
+      }
+      .container {
+        width: 100% !important;
+      }
+      .contact-form-widget {
+        width: 96% !important;
+        margin: 0 auto;
+        padding: 5px;
+        max-width: none !important;
+        border: 1px solid #eee;
+      }
+      .modal-header {
+        text-align: center;
+      }
+      input#ContactForm1_contact-form-name {
+        font-family: Droid Arabic Kufi;
+      }
+      .customSelect {
+        float: right;
+      }
+      .modal-body {font-family: Droid Arabic Kufi !important;}
+      dlow {
+        width: 100%;
+        float: right;
+        margin: 1px 0;
+        padding: 5px;
+        border-right: 1px solid #FF040B;
+        ;
+      }
+      .modal-header {
+        font-family: Droid Arabic Kufi !important;
+        font-size: 16px;
+      }
+      button.btn.btn-default {
+        font-family: Droid Arabic Kufi !important;
+        float: left;
+      }
+      .modal-body {
+        float: right;
+        width: 100%;
+      }
+      .modal-footer {
+        float: right;
+        width: 100%;
+      }
+      .modal-content {
+        float: right;
+        width: 100%;
+      }
+      center {}
+      body {
+        background: #eee;
+      }
+      .toolbar {
+        font-family: Droid Arabic Kufi;
+      }
+      .tillemissage {
+        box-shadow: inset 0px 0px 1px #555;
+        padding: 30px;
+        background: #fff;
+        color: #333;
+        border-right: 5px solid #357ae8;
+      }
+      .form-control {
+        color: #333;
+        font-size: 15px;
+        height: 50px !important;
+        text-align: right !important;
+      }
+      input#ContactForm1_contact-form-name {
+        font-family: Droid Arabic Kufi;
+      }
+      .toolbar {
+        background: #2E3641;
+      }s
+      .newPost .toolbar .customSelect {
+        float: right;
+        position: relative;
+      }
+      .newPost .toolbar .customSelect select {
+        appearance: none;
+        border-radius: 0;
+        border: none;
+        background: #2E3641;
+        height: 45px;
+        padding-left: 10px;
+        padding-right: 25px;
+        color: #C1CFD9;
+        border-left: 1px solid #434f5f;
+        outline: none;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .newPost .toolbar .customSelect select:hover {
+        background: #394250;
+        color: #b1c3cf;
+      }
+      .newPost .toolbar .customSelect:after {
+        content: &quot;\f0dc&quot;;
+        font-family: FontAwesome;
+        color: #C1CFD9;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+      }
+      .toolbar button {
+        float: right;
+        width: 45px;
+        height: 45px;
+        background: #2E3641;
+        border: none;
+        border-right: 1px solid #434f5f;
+        color: #C1CFD9;
+        outline: none;
+        cursor: pointer;
+      }
+      .toolbar button:hover {
+        background: #394250;
+        color: #b1c3cf;
+      }
+      .toolbar:after {
+        content: &#39;&#39;;
+        display: block;
+        clear: both;
+      }
+      p.MsoNormal {
+        margin: 0px !important;
+      }
+      .editor {
+        font-size: 19px;
+      }
+      .editor {
+        font-size: 19px;
+      }
+      body {
+        font-family: Droid Arabic Kufi;
+      }
+      noti {
+        padding: 2%;
+        float: right;
+        width: 100%;
+      }
+      input#ContactForm1_contact-form-email {
+        text-align: left !important;
+      }
+      .editor, .texthidd {
+        min-height: 300px;
+        width: 100%;
+        resize: none;
+        box-shadow: inset 0px 0px 1px #555;
+        outline: none;
+        padding: 5px;
+        margin-bottom: 20px;
+        position: relative;
+        background: #fff;
+        line-height: 1.6em;
+      }
+      .editor{
+        display: block;
+      }
+      .editor ul{
+        list-style: disc;
+        padding-left: 20px;
+      }
+      .editor ol{
+        list-style: decimal;
+        padding-left: 20px;
+      }
+      .texthidd{
+        display: none; 
+      }
+      .smileys{
+        clear: both;
+        overflow: hidden;
+        background: #444F5F;
+        display: none;
+      }
+      .smileys button{
+        background: #444F5F;
+        border: none;
+        border-right: 1px solid #434f5f;
+      }
+      .linkform{
+        clear: both;
+        overflow: hidden;
+        background: #444F5F;
+        display: none;
+      }
+      .link{
+        padding: 1.11em 2%;
+        border: none;
+        width: 78%;
+        float: left;
+      }
+      .linkform .functionlinkto{
+        content: &quot;Ajouter&quot;;
+        width: 18%;
+        margin: 0;
+        border: none;
+        background: #444F5F;
+      }
+      .copyrightform {
+        float: left;
+        position: absolute;
+        width: 20px;
+        font-size: 0px;
+        font-family: Droid Arabic Kufi !important;
+        height: 20px;
+        background: #94A050;
+        left: 0;
+        border-radius: 0 655px 0 0;
+        bottom: 0px;
+      }
+      .copyrightform:hover {
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        height: 60px;
+        font-size: 16px;
+        line-height: 60px;
+        font-family: Droid Arabic Kufi !important;
+        background: #ADD87E;
+      }
+    </style>
+    
+      <b:skin><![CDATA[
+a#href {}
+
+.re {
+    font-size: 11px;
+    color: #333;
+    margin-top: 100px;
+    width: 100%;
+    float: right;
+}
+
+      ]]></b:skin>
+   
+    
+    <script type='text/javascript'>
+      //<![CDATA[
+      $(document).ready(function() {
+    var smileys = ["fa fa-address-card", "fa fa-fort-awesome", "fa fa-bed", "fa fa-beer", "fa fa-car"];
+    jQuery.each(smileys, function(i, val) {
+        $(".newPost").each(function() {
+            $(this).find(".smileys").append('<button type="button" class="functiondata" data-func="insertHtml" data-funcdat=\'<i class="' + val + '">\'><i class="' + val + '"></i></button>')
+        })
+    });
+    $('.function').click(function() {
+        document.execCommand($(this).data('func'), false);
+        var content = $(this).parents(".newPost").find(".editor").html();
+        $(this).parents(".newPost").find(".texthidd").val(content)
+    });
+    $('.functiondata').click(function() {
+        document.execCommand($(this).data('func'), false, $(this).data('funcdat'));
+        var content = $(this).parents(".newPost").find(".editor").html();
+        $(this).parents(".newPost").find(".texthidd").val(content)
+    });
+    $('.functionlinkto').click(function() {
+        document.execCommand($(this).data('func'), false, $(this).parents(".newPost").find(".link").val());
+        $(this).parents(".newPost").find(".linkform").slideToggle();
+        var content = $(this).parents(".newPost").find(".editor").html();
+        $(this).parents(".newPost").find(".texthidd").val(content)
+    });
+    $('.functionchange').change(function() {
+        var $value = $(this).find(':selected').val();
+        document.execCommand($(this).data('func'), false, $value);
+        var content = $(this).parents(".newPost").find(".editor").html();
+        $(this).parents(".newPost").find(".texthidd").val(content)
+    });
+    $('.editor').focus(function() {
+        $(this).keyup(function() {
+            var content = $(this).html();
+            $(this).parent(".newPost").find(".texthidd").val(content)
+        })
+    });
+    $('.texthidd').focus(function() {
+        $(this).keyup(function() {
+            var content = $(this).val();
+            $(this).parent(".newPost").find(".editor").html(content)
+        })
+    });
+    $('.functioncode').click(function() {
+        if ($(this).parents(".newPost").find(".editor").is(":visible")) {
+            $(this).parents(".newPost").find(".editor").fadeToggle("fast", function() {
+                $(this).parents(".newPost").find(".texthidd").fadeToggle()
+            })
+        } else {
+            $(this).parents(".newPost").find(".texthidd").fadeToggle("fast", function() {
+                $(this).parents(".newPost").find(".editor").fadeToggle()
+            })
+        }
+        $(this).parents(".newPost").find(".tools").fadeToggle()
+    });
+    $(".functionicon").click(function() {
+        $(this).parents(".newPost").find(".smileys").slideToggle()
+    });
+    $(".functionlink").click(function() {
+        $(this).parents(".newPost").find(".linkform").slideToggle()
+    })
+});
+
+
+
+      //]]>
+    </script>
+  </head>
+  <body class='k'>
+    <b:section class='myeditor' id='myeditor' preferred='yes'>
+      <b:widget id='ContactForm13' locked='false' title='نموذج الاتصال' type='ContactForm' version='1'>
+        <b:includable id='main'>
+          <div class='contact-form-widget'>
+            <div class='form'>
+              <div class='titleheade' style='     height: 40px;     text-align: center;     background: #fff;     line-height: 40px;     font-family: Droid Arabic Kufi !important;     margin: 10px 0;     font-size: large; '>
+                مساحة التحرير
+              </div>
+              <div class='alert alert-success'>
+                <a aria-label='close' class='close' data-dismiss='alert' href='#'>
+                  إغلاق
+                </a>
+                <strong>
+                  ملاحظة
+                </strong>
+                يمكن ضافة صور أو فديوهات عبر نسخها من  روابط خارجية ولصقها في المربع بطريقة عادية 
+              </div>
+              <form id='form1' name='contact-form'>
+                <div class='tillemissage'>
+                  <input class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-name&quot;' id='exampleInputEmail2' placeholder='عنوان مقالتك واسمك في اخر العنوان' style='text-align: center;' type='email'/>
+                </div>
+                <div class='newPost'>
+                  <div class='toolbar'>
+                    <div class='tools'>
+                      <!-- Gras -->
+                      <button class='function' data-func='bold' id='boutbold' type='button'>
+                        <i class='fa fa-bold'/>
+                      </button>
+                      <!--  Italique -->
+                      <button class='function' data-func='italic' type='button'>
+                        <i class='fa fa-italic'/>
+                      </button>
+                      <!-- Souligné -->
+                      <button class='function' data-func='underline' type='button'>
+                        <i class='fa fa-underline'/>
+                      </button>
+                      <!-- Barré -->
+                      <button class='function' data-func='strikeThrough' type='button'>
+                        <i class='fa fa-strikethrough'/>
+                      </button>
+                      <!--  Alignement à gauche -->
+                      <button class='function' data-func='justifyleft' type='button'>
+                        <i class='fa fa-align-left'/>
+                      </button>
+                      <!--   Alignement central -->
+                      <button class='function' data-func='justifycenter' type='button'>
+                        <i class='fa fa-align-center'/>
+                      </button>
+                      <!-- Aligneùent à droite -->
+                      <button class='function' data-func='justifyright' type='button'>
+                        <i class='fa fa-align-right'/>
+                      </button>
+                      <!-- Justifier -->
+                      <button class='function' data-func='justifyfull' type='button'>
+                        <i class='fa fa-align-justify'/>
+                      </button>
+                      <!-- Liste à puce -->
+                      <button class='function' data-func='insertunorderedlist' type='button'>
+                        <i class='fa fa-list-ul'/>
+                      </button>
+                      <!-- Liste numérique -->
+                      <button class='function' data-func='insertorderedlist' type='button'>
+                        <i class='fa fa-list-ol'/>
+                      </button>
+                      <!-- lien(boutton) -->
+                      <button class='functionlink' type='button'>
+                        <i class='fa fa-link'/>
+                      </button>
+                      <!-- ENlever lien -->
+                      <button class='function' data-func='unlink' type='button'>
+                        <i class='fa fa-chain-broken'/>
+                      </button>
+                      <!-- Effacer le style -->
+                      <button class='function' data-func='removeFormat' type='button'>
+                        <i class='fa fa-eraser'/>
+                      </button>
+                      <!-- Smileys(boutton) -->
+                      <button class='functionicon' type='button'>
+                        <i class='fa fa-smile-o'/>
+                      </button>
+                      <div class='customSelect'>
+                        <select class='functionchange' data-func='fontname'>
+                          <optgroup label='Sans Serif Fonts'>
+                            <option value='Arial'>
+                              Arial
+                            </option>
+                            <option value='Arial Black'>
+                              Arial Black
+                            </option>
+                            <option selected='true' value='Droid Arabic Naskh'>
+                              Droid Arabic Naskh
+                            </option>
+                            <option value='Droid Arabic Kufi'>
+                              Droid Arabic Kufi
+                            </option>
+                            <option value='Tahoma'>
+                              Tahoma
+                            </option>
+                            <option value='Trebuchet MS'>
+                              Trebuchet MS
+                            </option>
+                            <option value='Verdana'>
+                              Verdana
+                            </option>
+                          </optgroup>
+                        </select>
+                      </div>
+                      <div class='customSelect'>
+                        <select class='functionchange' data-func='formatblock'>
+                          <option value='h1'>
+                            العنوان الأول
+                          </option>
+                          <option value='h2'>
+                            العنوان الثاني
+                          </option>
+                          <option value='h4'>
+                            العنوان الفرعي
+                          </option>
+                          <option selected='true' value='p'>
+                            الفقرة
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                    <!-- Code source(boutton) -->
+                    <!-- Liste des smiley -->
+                    <div class='smileys'>
+                    </div>
+                    <!-- Formulaire pour le lien -->
+                    <div class='linkform'>
+                      <input class='link' placeholder='Lien' type='url'/>
+                      <button class='functionlinkto' data-func='createLink' type='button'>
+                        <i class='fa fa-link'>
+                        </i>
+                        Valider
+                      </button>
+                    </div>
+                  </div>
+                  <!-- Editeur -->
+                  <div class='editor' contenteditable='true'>
+                    يمكنك بسهولة تحرير مشاركتك أو نقلها من مستند نصي وتنسيقها الشكل الذي يروق لك
+                  </div>
+                  <!-- Code source -->
+                  <textarea class='texthidd' expr:id='data:widget.instanceId + &quot;_contact-form-email-message&quot;' id='text' name='text' placeholder='Texte'>
+                  </textarea>
+                </div>
+                <button class='btn btn-default btn-lg btn-block' data-target='#alllist' data-toggle='modal' type='button'>
+                  إرسال المقالة
+                </button>
+                <div class='modal fade' id='alllist' role='dialog'>
+                  <div class='modal-dialog'>
+                    <!-- Modal content-->
+                    <div class='modal-content'>
+                      <div class='modal-header'>
+                        يجب أن تكون موافقا على شروطنا لكي يتم الإرسال 
+                      </div>
+                      <div class='modal-body'>
+                        <dlow>
+                          المقال لا يحتوي على روابط ربحية
+                        </dlow>
+                        <dlow>
+                          ليس به أكواد أو روابط ملغمة
+                        </dlow>
+                        <dlow>
+                          مرتبط بمجال الموقع
+                        </dlow>
+                        <center>
+                          <div class='mailnot'>
+                            البريد الإلكتروني 
+                            <noti>
+                              (لن ينشر وسنحتاجه للتواصل معك)
+                            </noti>
+                          </div>
+                          <br/>
+                          <br/>
+                          <input class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-email&quot;' id='exampleInputEmail2' placeholder='jane.doe@example.com' style='text-align: center;' type='email'/>
+                        </center>
+                        <br/>
+                        <br/>
+                        <center>
+                          <input class='btn btn-default btn-lg' expr:id='data:widget.instanceId + &quot;_contact-form-submit&quot;' tyle='margin: 10%;' type='button' value='موافقة وإرسال '/>
+                        </center>
+                      </div>
+                      <div class='modal-footer'>
+                        <p class='bg-warning' expr:id='data:widget.instanceId + &quot;_contact-form-error-message&quot;'/>
+                        <p class='bg-success' expr:id='data:widget.instanceId + &quot;_contact-form-success-message&quot;'/>
+                        <button class='btn btn-default' data-dismiss='modal' type='button'>
+                          اغلاق
+                        </button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </form>
+            </div>
+          </div>
+        </b:includable>
+      </b:widget>
+    </b:section>
+
+
+  </body>
+</HTML>
