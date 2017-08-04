@@ -8,3 +8,285 @@
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'/>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'/>
     <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
+     <style>
+      a.close {
+        float: left !important ;
+        font-size: 11px !important;
+        line-height: 20px !important;
+      }
+      strong {
+        padding: 10px !important;
+      }
+      input#ContactForm1_contact-form-name {
+        width: 100% !important;
+        height: 50px !important;
+        line-height: 45px !important;
+        text-align: right !important;
+      }
+      .mailnot {
+        float: right;
+        padding: 20px;
+        width: 100%;
+      }
+      noti {
+        color: #42A959;
+        font-size: 12px;
+      }
+      body {
+        background: #eee;
+      }
+      a#snapper {
+        color: #fff !important;
+        width: 100%;
+        height: 100%;
+        float: right;
+      }
+      .tillemissage {
+        box-shadow: inset 0px 0px 1px #555;
+        padding: 30px;
+        background: #fff;
+        color: #333;
+        border-right: 5px solid #357ae8;
+      }
+      .form-control {
+        color: #333;
+        font-size: 15px;
+        height: 50px !important;
+        text-align: right !important;
+      }
+      form#form1 {
+        width: 100% !important;
+      }
+      .form {}
+      .contact-form-widget {
+        width: 100% !important;
+        max-width: none !important;
+        min-width: none !important;
+      }
+      .main-outer {
+        /* display: none !important; */
+      }
+      .container {
+        width: 100% !important;
+      }
+      .contact-form-widget {
+        width: 96% !important;
+        margin: 0 auto;
+        padding: 5px;
+        max-width: none !important;
+        border: 1px solid #eee;
+      }
+      .modal-header {
+        text-align: center;
+      }
+      input#ContactForm1_contact-form-name {
+        font-family: Droid Arabic Kufi;
+      }
+      .customSelect {
+        float: right;
+      }
+      .modal-body {font-family: Droid Arabic Kufi !important;}
+      dlow {
+        width: 100%;
+        float: right;
+        margin: 1px 0;
+        padding: 5px;
+        border-right: 1px solid #FF040B;
+        ;
+      }
+      .modal-header {
+        font-family: Droid Arabic Kufi !important;
+        font-size: 16px;
+      }
+      button.btn.btn-default {
+        font-family: Droid Arabic Kufi !important;
+        float: left;
+      }
+      .modal-body {
+        float: right;
+        width: 100%;
+      }
+      .modal-footer {
+        float: right;
+        width: 100%;
+      }
+      .modal-content {
+        float: right;
+        width: 100%;
+      }
+      center {}
+      body {
+        background: #eee;
+      }
+      .toolbar {
+        font-family: Droid Arabic Kufi;
+      }
+      .tillemissage {
+        box-shadow: inset 0px 0px 1px #555;
+        padding: 30px;
+        background: #fff;
+        color: #333;
+        border-right: 5px solid #357ae8;
+      }
+      .form-control {
+        color: #333;
+        font-size: 15px;
+        height: 50px !important;
+        text-align: right !important;
+      }
+      input#ContactForm1_contact-form-name {
+        font-family: Droid Arabic Kufi;
+      }
+      .toolbar {
+        background: #2E3641;
+      }s
+      .newPost .toolbar .customSelect {
+        float: right;
+        position: relative;
+      }
+      .newPost .toolbar .customSelect select {
+        appearance: none;
+        border-radius: 0;
+        border: none;
+        background: #2E3641;
+        height: 45px;
+        padding-left: 10px;
+        padding-right: 25px;
+        color: #C1CFD9;
+        border-left: 1px solid #434f5f;
+        outline: none;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .newPost .toolbar .customSelect select:hover {
+        background: #394250;
+        color: #b1c3cf;
+      }
+      .newPost .toolbar .customSelect:after {
+        content: &quot;\f0dc&quot;;
+        font-family: FontAwesome;
+        color: #C1CFD9;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+      }
+      .toolbar button {
+        float: right;
+        width: 45px;
+        height: 45px;
+        background: #2E3641;
+        border: none;
+        border-right: 1px solid #434f5f;
+        color: #C1CFD9;
+        outline: none;
+        cursor: pointer;
+      }
+      .toolbar button:hover {
+        background: #394250;
+        color: #b1c3cf;
+      }
+      .toolbar:after {
+        content: &#39;&#39;;
+        display: block;
+        clear: both;
+      }
+      p.MsoNormal {
+        margin: 0px !important;
+      }
+      .editor {
+        font-size: 19px;
+      }
+      .editor {
+        font-size: 19px;
+      }
+      body {
+        font-family: Droid Arabic Kufi;
+      }
+      noti {
+        padding: 2%;
+        float: right;
+        width: 100%;
+      }
+      input#ContactForm1_contact-form-email {
+        text-align: left !important;
+      }
+      .editor, .texthidd {
+        min-height: 300px;
+        width: 100%;
+        resize: none;
+        box-shadow: inset 0px 0px 1px #555;
+        outline: none;
+        padding: 5px;
+        margin-bottom: 20px;
+        position: relative;
+        background: #fff;
+        line-height: 1.6em;
+      }
+      .editor{
+        display: block;
+      }
+      .editor ul{
+        list-style: disc;
+        padding-left: 20px;
+      }
+      .editor ol{
+        list-style: decimal;
+        padding-left: 20px;
+      }
+      .texthidd{
+        display: none; 
+      }
+      .smileys{
+        clear: both;
+        overflow: hidden;
+        background: #444F5F;
+        display: none;
+      }
+      .smileys button{
+        background: #444F5F;
+        border: none;
+        border-right: 1px solid #434f5f;
+      }
+      .linkform{
+        clear: both;
+        overflow: hidden;
+        background: #444F5F;
+        display: none;
+      }
+      .link{
+        padding: 1.11em 2%;
+        border: none;
+        width: 78%;
+        float: left;
+      }
+      .linkform .functionlinkto{
+        content: &quot;Ajouter&quot;;
+        width: 18%;
+        margin: 0;
+        border: none;
+        background: #444F5F;
+      }
+      .copyrightform {
+        float: left;
+        position: absolute;
+        width: 20px;
+        font-size: 0px;
+        font-family: Droid Arabic Kufi !important;
+        height: 20px;
+        background: #94A050;
+        left: 0;
+        border-radius: 0 655px 0 0;
+        bottom: 0px;
+      }
+      .copyrightform:hover {
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        height: 60px;
+        font-size: 16px;
+        line-height: 60px;
+        font-family: Droid Arabic Kufi !important;
+        background: #ADD87E;
+      }
+    </style>
+   
