@@ -1,0 +1,201 @@
+  <b:section class='myeditor' id='myeditor' preferred='yes'>
+      <b:widget id='ContactForm13' locked='false' title='نموذج الاتصال' type='ContactForm' version='1'>
+        <b:includable id='main'>
+          <div class='contact-form-widget'>
+            <div class='form'>
+              <div class='titleheade' style='     height: 40px;     text-align: center;     background: #fff;     line-height: 40px;     font-family: Droid Arabic Kufi !important;     margin: 10px 0;     font-size: large; '>
+                مساحة التحرير
+              </div>
+              <div class='alert alert-success'>
+                <a aria-label='close' class='close' data-dismiss='alert' href='#'>
+                  إغلاق
+                </a>
+                <strong>
+                  ملاحظة
+                </strong>
+                يمكن ضافة صور أو فديوهات عبر نسخها من  روابط خارجية ولصقها في المربع بطريقة عادية 
+              </div>
+              <form id='form1' name='contact-form'>
+                <div class='tillemissage'>
+                  <input class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-name&quot;' id='exampleInputEmail2' placeholder='عنوان مقالتك واسمك في اخر العنوان' style='text-align: center;' type='email'/>
+                </div>
+                <div class='newPost'>
+                  <div class='toolbar'>
+                    <div class='tools'>
+                      <!-- Gras -->
+                      <button class='function' data-func='bold' id='boutbold' type='button'>
+                        <i class='fa fa-bold'/>
+                      </button>
+                      <!--  Italique -->
+                      <button class='function' data-func='italic' type='button'>
+                        <i class='fa fa-italic'/>
+                      </button>
+                      <!-- Souligné -->
+                      <button class='function' data-func='underline' type='button'>
+                        <i class='fa fa-underline'/>
+                      </button>
+                      <!-- Barré -->
+                      <button class='function' data-func='strikeThrough' type='button'>
+                        <i class='fa fa-strikethrough'/>
+                      </button>
+                      <!--  Alignement à gauche -->
+                      <button class='function' data-func='justifyleft' type='button'>
+                        <i class='fa fa-align-left'/>
+                      </button>
+                      <!--   Alignement central -->
+                      <button class='function' data-func='justifycenter' type='button'>
+                        <i class='fa fa-align-center'/>
+                      </button>
+                      <!-- Aligneùent à droite -->
+                      <button class='function' data-func='justifyright' type='button'>
+                        <i class='fa fa-align-right'/>
+                      </button>
+                      <!-- Justifier -->
+                      <button class='function' data-func='justifyfull' type='button'>
+                        <i class='fa fa-align-justify'/>
+                      </button>
+                      <!-- Liste à puce -->
+                      <button class='function' data-func='insertunorderedlist' type='button'>
+                        <i class='fa fa-list-ul'/>
+                      </button>
+                      <!-- Liste numérique -->
+                      <button class='function' data-func='insertorderedlist' type='button'>
+                        <i class='fa fa-list-ol'/>
+                      </button>
+                      <!-- lien(boutton) -->
+                      <button class='functionlink' type='button'>
+                        <i class='fa fa-link'/>
+                      </button>
+                      <!-- ENlever lien -->
+                      <button class='function' data-func='unlink' type='button'>
+                        <i class='fa fa-chain-broken'/>
+                      </button>
+                      <!-- Effacer le style -->
+                      <button class='function' data-func='removeFormat' type='button'>
+                        <i class='fa fa-eraser'/>
+                      </button>
+                      <!-- Smileys(boutton) -->
+                      <button class='functionicon' type='button'>
+                        <i class='fa fa-smile-o'/>
+                      </button>
+                      <div class='customSelect'>
+                        <select class='functionchange' data-func='fontname'>
+                          <optgroup label='Sans Serif Fonts'>
+                            <option value='Arial'>
+                              Arial
+                            </option>
+                            <option value='Arial Black'>
+                              Arial Black
+                            </option>
+                            <option selected='true' value='Droid Arabic Naskh'>
+                              Droid Arabic Naskh
+                            </option>
+                            <option value='Droid Arabic Kufi'>
+                              Droid Arabic Kufi
+                            </option>
+                            <option value='Tahoma'>
+                              Tahoma
+                            </option>
+                            <option value='Trebuchet MS'>
+                              Trebuchet MS
+                            </option>
+                            <option value='Verdana'>
+                              Verdana
+                            </option>
+                          </optgroup>
+                        </select>
+                      </div>
+                      <div class='customSelect'>
+                        <select class='functionchange' data-func='formatblock'>
+                          <option value='h1'>
+                            العنوان الأول
+                          </option>
+                          <option value='h2'>
+                            العنوان الثاني
+                          </option>
+                          <option value='h4'>
+                            العنوان الفرعي
+                          </option>
+                          <option selected='true' value='p'>
+                            الفقرة
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                    <!-- Code source(boutton) -->
+                    <!-- Liste des smiley -->
+                    <div class='smileys'>
+                    </div>
+                    <!-- Formulaire pour le lien -->
+                    <div class='linkform'>
+                      <input class='link' placeholder='Lien' type='url'/>
+                      <button class='functionlinkto' data-func='createLink' type='button'>
+                        <i class='fa fa-link'>
+                        </i>
+                        Valider
+                      </button>
+                    </div>
+                  </div>
+                  <!-- Editeur -->
+                  <div class='editor' contenteditable='true'>
+                    يمكنك بسهولة تحرير مشاركتك أو نقلها من مستند نصي وتنسيقها الشكل الذي يروق لك
+                  </div>
+                  <!-- Code source -->
+                  <textarea class='texthidd' expr:id='data:widget.instanceId + &quot;_contact-form-email-message&quot;' id='text' name='text' placeholder='Texte'>
+                  </textarea>
+                </div>
+                <button class='btn btn-default btn-lg btn-block' data-target='#alllist' data-toggle='modal' type='button'>
+                  إرسال المقالة
+                </button>
+                <div class='modal fade' id='alllist' role='dialog'>
+                  <div class='modal-dialog'>
+                    <!-- Modal content-->
+                    <div class='modal-content'>
+                      <div class='modal-header'>
+                        يجب أن تكون موافقا على شروطنا لكي يتم الإرسال 
+                      </div>
+                      <div class='modal-body'>
+                        <dlow>
+                          المقال لا يحتوي على روابط ربحية
+                        </dlow>
+                        <dlow>
+                          ليس به أكواد أو روابط ملغمة
+                        </dlow>
+                        <dlow>
+                          مرتبط بمجال الموقع
+                        </dlow>
+                        <center>
+                          <div class='mailnot'>
+                            البريد الإلكتروني 
+                            <noti>
+                              (لن ينشر وسنحتاجه للتواصل معك)
+                            </noti>
+                          </div>
+                          <br/>
+                          <br/>
+                          <input class='form-control' expr:id='data:widget.instanceId + &quot;_contact-form-email&quot;' id='exampleInputEmail2' placeholder='jane.doe@example.com' style='text-align: center;' type='email'/>
+                        </center>
+                        <br/>
+                        <br/>
+                        <center>
+                          <input class='btn btn-default btn-lg' expr:id='data:widget.instanceId + &quot;_contact-form-submit&quot;' tyle='margin: 10%;' type='button' value='موافقة وإرسال '/>
+                        </center>
+                      </div>
+                      <div class='modal-footer'>
+                        <p class='bg-warning' expr:id='data:widget.instanceId + &quot;_contact-form-error-message&quot;'/>
+                        <p class='bg-success' expr:id='data:widget.instanceId + &quot;_contact-form-success-message&quot;'/>
+                        <button class='btn btn-default' data-dismiss='modal' type='button'>
+                          اغلاق
+                        </button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </form>
+            </div>
+          </div>
+        </b:includable>
+      </b:widget>
+    </b:section>
